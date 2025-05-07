@@ -61,7 +61,7 @@
 #         print("Opción inválida, intente de nuevo.")
 
 # print(f"Su total es de ${total}")
-# print(f"Más el IVA: ${total * 0.19:.0f}")
+# print(f"Más el IVA: ${total * 1.19:.0f}")
 # print(f"Total con IVA: ${total * 1.19:.0f}")
 
 
