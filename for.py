@@ -43,6 +43,8 @@
     
 # cantidad de notas y promediarlas
 
+# notas_azules = 0
+
 # print("Ingresar cantidad de notas")
 # suma = 0
 # notas_azule = 0
@@ -51,7 +53,7 @@
 #     print("Ingrese la nota ",i +1)
 #     nota=float(input())
 #     if nota >=4:
-#          notas_azules +=1
+         
 #     # suma+=nota
 #     suma=suma+nota
 
@@ -72,25 +74,25 @@
 #     cont +=1
 # print(f"La cantidadd de caracteres es {cont}")
 
-frase=input(" ingrese su frase ")
-cantcar=0
-v=0
-cons=0
-e=0
-for i in frase:
-    print(i)
-    cantcar+=1
-    if i.lower() in "aeiouAEIOU":
-        v+=1
-        #v=v+1 
-    elif i==" ":
-        e+=1
-    else:
-        cons+=1
+# frase=input(" ingrese su frase ")
+# cantcar=0
+# v=0
+# cons=0
+# e=0
+# for i in frase:
+#     print(i)
+#     cantcar+=1
+#     if i.lower() in "aeiouAEIOU":
+#         v+=1
+#         #v=v+1 
+#     elif i==" ":
+#         e+=1
+#     else:
+#         cons+=1
 
-print(f"El total de caracteres es {cantcar}")
-print(f"El total de vocales  es {v}")
-print(f"El total de consonantes  es {cons}")
+# print(f"El total de caracteres es {cantcar}")
+# print(f"El total de vocales  es {v}")
+# print(f"El total de consonantes  es {cons}")
 
 
 

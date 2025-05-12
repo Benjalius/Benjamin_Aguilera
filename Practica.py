@@ -126,7 +126,7 @@
 
 # import random
 
-# # Solicitar al usuario los dos números
+# Solicitar al usuario los dos números
 # num1 = int(input("Ingresa el primer número: "))
 # num2 = int(input("Ingresa el segundo número (mayor que el primero): "))
 
@@ -143,8 +143,8 @@
 # print("▬" * aleatorio)
 
 #POSIBLES CASOS PARA LA PRUEBA
-#Tabla de multiplicar
 
+#Tabla de multiplicar
 # num = int(input("Ingrese un numero: "))
 
 # for i in range(1, 11):
@@ -213,14 +213,16 @@
 
 # Ejemplo: Lista de compras organizada por categoría
 
-categorias = ["Frutas", "Verduras", "Lácteos"]
-productos = {
-    "Frutas": ["Manzanas", "Plátanos", "Frutillas"],
-    "Verduras": ["Lechuga", "pepino", "Espinacas"],
-    "Lácteos": ["Leche", "Yogur", "Queso"]
-}
+# categorias = ["Frutas", "Verduras", "Lácteos"]
+# productos = {
+#     "Frutas": ["Manzanas", "Plátanos", "Frutillas"],
+#     "Verduras": ["Lechuga", "pepino", "Espinacas"],
+#     "Lácteos": ["Leche", "Yogur", "Queso"]
+# }
 
-for categoria in categorias:
-    print(f"\nCompras de {categoria}:")
-    for producto in productos[categoria]:
-        print(f"- {producto}")
+# for categoria in categorias:
+#     print(f"\nCompras de {categoria}:")
+#     for producto in productos[categoria]:
+#         print(f"- {producto}")
+
+
