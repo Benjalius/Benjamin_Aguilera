@@ -32,14 +32,19 @@ diamante=0
 carbon=0
 palos=0
 
-print("Minecraft")
+
+
+op=int(input("Que desea hacer?"))
+
+while op:
+    try:
+
+    except Exception:
+
+        print("Minecraft")
 print('''
 1.-Mundo survival
 2.-Multijugador
 3.-Opciones
 4.-Salir
 ''')
-
-op=int(input("Que desea hacer?"))
-
-while 
